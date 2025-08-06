@@ -1,0 +1,3270 @@
+
+> osteopathe-booking@0.1.0 dev
+> next dev
+
+ ⚠ Warning: Found multiple lockfiles. Selecting /Users/denisadam/package-lock.json.
+   Consider removing the lockfiles at:
+   * /Users/denisadam/osteopathe-booking/package-lock.json
+
+   ▲ Next.js 15.4.5
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.236:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ⚠ The config property `experimental.turbo` is deprecated. Move this setting to `config.turbopack` as Turbopack is now stable.
+ ✓ Ready in 1168ms
+ ✓ Compiled /middleware in 288ms (137 modules)
+ ○ Compiling /[locale] ...
+ ⚠ ./src/app/[locale]/providers.tsx
+Attempted import error: 'ColorModeScript' is not exported from '@chakra-ui/react' (imported as 'ColorModeScript').
+
+Import trace for requested module:
+./src/app/[locale]/providers.tsx
+
+./src/app/[locale]/theme.ts
+Attempted import error: 'extendTheme' is not exported from '@chakra-ui/react' (imported as 'extendTheme').
+
+Import trace for requested module:
+./src/app/[locale]/theme.ts
+./src/app/[locale]/providers.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/app/[locale]/providers.tsx
+Attempted import error: 'ColorModeScript' is not exported from '@chakra-ui/react' (imported as 'ColorModeScript').
+
+Import trace for requested module:
+./src/app/[locale]/providers.tsx
+
+./src/app/[locale]/theme.ts
+Attempted import error: 'extendTheme' is not exported from '@chakra-ui/react' (imported as 'extendTheme').
+
+Import trace for requested module:
+./src/app/[locale]/theme.ts
+./src/app/[locale]/providers.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+Error: Route "/[locale]" used `params.locale`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at RootLayout (src/app/[locale]/layout.tsx:26:12)
+  24 | export default async function RootLayout({
+  25 |   children,
+> 26 |   params: { locale }
+     |            ^
+  27 | }: RootLayoutProps) {
+  28 |   const messages = await getMessages()
+  29 |
+Only plain objects can be passed to Client Components from Server Components. Module objects are not supported.
+  [..., Module, Null, ..., ..., [...], 1]
+        ^^^^^^
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaMapMarkerAlt} color=...>
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2808266052'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaPhone} color=...>
+          ^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2363784164'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaGlobe} color=...>
+          ^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '238888196'
+}
+ ⨯ Error: Cannot find module './undefined.json'
+    at <unknown> (.next/server/app/[locale]/page.js:38:12)
+    at async eval (src/i18n/request.ts:4:13)
+  2 |
+  3 | export default getRequestConfig(async ({ locale }) => ({
+> 4 |   messages: (await import(`../../messages/${locale}.json`)).default
+    |             ^
+  5 | })) {
+  code: 'MODULE_NOT_FOUND',
+  digest: '4243615579'
+}
+ GET /fr 500 in 9277ms
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+Error: Route "/[locale]" used `params.locale`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at RootLayout (src/app/[locale]/layout.tsx:26:12)
+  24 | export default async function RootLayout({
+  25 |   children,
+> 26 |   params: { locale }
+     |            ^
+  27 | }: RootLayoutProps) {
+  28 |   const messages = await getMessages()
+  29 |
+Only plain objects can be passed to Client Components from Server Components. Module objects are not supported.
+  [..., Module, Null, ..., ..., [...], 1]
+        ^^^^^^
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaMapMarkerAlt} color=...>
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2417373258'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaPhone} color=...>
+          ^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1330300394'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaGlobe} color=...>
+          ^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1572791946'
+}
+ ⨯ Error: Cannot find module './undefined.json'
+    at <unknown> (.next/server/app/[locale]/page.js:38:12)
+    at async eval (src/i18n/request.ts:4:13)
+  2 |
+  3 | export default getRequestConfig(async ({ locale }) => ({
+> 4 |   messages: (await import(`../../messages/${locale}.json`)).default
+    |             ^
+  5 | })) {
+  code: 'MODULE_NOT_FOUND',
+  digest: '1370850965'
+}
+ GET /fr 500 in 617ms
+ ⚠ ./src/app/[locale]/providers.tsx
+Attempted import error: 'ColorModeScript' is not exported from '@chakra-ui/react' (imported as 'ColorModeScript').
+
+Import trace for requested module:
+./src/app/[locale]/providers.tsx
+
+./src/app/[locale]/theme.ts
+Attempted import error: 'extendTheme' is not exported from '@chakra-ui/react' (imported as 'extendTheme').
+
+Import trace for requested module:
+./src/app/[locale]/theme.ts
+./src/app/[locale]/providers.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/app/[locale]/providers.tsx
+Attempted import error: 'ColorModeScript' is not exported from '@chakra-ui/react' (imported as 'ColorModeScript').
+
+Import trace for requested module:
+./src/app/[locale]/providers.tsx
+
+./src/app/[locale]/theme.ts
+Attempted import error: 'extendTheme' is not exported from '@chakra-ui/react' (imported as 'extendTheme').
+
+Import trace for requested module:
+./src/app/[locale]/theme.ts
+./src/app/[locale]/providers.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⚠ ./src/app/[locale]/providers.tsx
+Attempted import error: 'ColorModeScript' is not exported from '@chakra-ui/react' (imported as 'ColorModeScript').
+
+Import trace for requested module:
+./src/app/[locale]/providers.tsx
+
+./src/app/[locale]/theme.ts
+Attempted import error: 'extendTheme' is not exported from '@chakra-ui/react' (imported as 'extendTheme').
+
+Import trace for requested module:
+./src/app/[locale]/theme.ts
+./src/app/[locale]/providers.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/app/[locale]/providers.tsx
+Attempted import error: 'ColorModeScript' is not exported from '@chakra-ui/react' (imported as 'ColorModeScript').
+
+Import trace for requested module:
+./src/app/[locale]/providers.tsx
+
+./src/app/[locale]/theme.ts
+Attempted import error: 'extendTheme' is not exported from '@chakra-ui/react' (imported as 'extendTheme').
+
+Import trace for requested module:
+./src/app/[locale]/theme.ts
+./src/app/[locale]/providers.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ GET /favicon.ico 200 in 524ms
+Error: Route "/[locale]" used `params.locale`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at RootLayout (src/app/[locale]/layout.tsx:26:12)
+  24 | export default async function RootLayout({
+  25 |   children,
+> 26 |   params: { locale }
+     |            ^
+  27 | }: RootLayoutProps) {
+  28 |   const messages = await getMessages()
+  29 |
+Only plain objects can be passed to Client Components from Server Components. Module objects are not supported.
+  [..., Module, Null, ..., ..., [...], 1]
+        ^^^^^^
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaMapMarkerAlt} color=...>
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2417373258'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaPhone} color=...>
+          ^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1330300394'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaGlobe} color=...>
+          ^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1572791946'
+}
+ ⨯ Error: Cannot find module './undefined.json'
+    at <unknown> (.next/server/app/[locale]/page.js:38:12)
+    at async eval (src/i18n/request.ts:4:13)
+  2 |
+  3 | export default getRequestConfig(async ({ locale }) => ({
+> 4 |   messages: (await import(`../../messages/${locale}.json`)).default
+    |             ^
+  5 | })) {
+  code: 'MODULE_NOT_FOUND',
+  digest: '1370850965'
+}
+ GET /fr 500 in 636ms
+ ⚠ ./src/app/[locale]/providers.tsx
+Attempted import error: 'ColorModeScript' is not exported from '@chakra-ui/react' (imported as 'ColorModeScript').
+
+Import trace for requested module:
+./src/app/[locale]/providers.tsx
+
+./src/app/[locale]/theme.ts
+Attempted import error: 'extendTheme' is not exported from '@chakra-ui/react' (imported as 'extendTheme').
+
+Import trace for requested module:
+./src/app/[locale]/theme.ts
+./src/app/[locale]/providers.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/app/[locale]/providers.tsx
+Attempted import error: 'ColorModeScript' is not exported from '@chakra-ui/react' (imported as 'ColorModeScript').
+
+Import trace for requested module:
+./src/app/[locale]/providers.tsx
+
+./src/app/[locale]/theme.ts
+Attempted import error: 'extendTheme' is not exported from '@chakra-ui/react' (imported as 'extendTheme').
+
+Import trace for requested module:
+./src/app/[locale]/theme.ts
+./src/app/[locale]/providers.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+Only plain objects can be passed to Client Components from Server Components. Module objects are not supported.
+  [..., Module, Null, ..., ..., [...], 1]
+        ^^^^^^
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaMapMarkerAlt} color=...>
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2417373258'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaPhone} color=...>
+          ^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1330300394'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... as={function FaGlobe} color=...>
+          ^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1572791946'
+}
+ ⨯ Error: Cannot find module './undefined.json'
+    at <unknown> (.next/server/app/[locale]/page.js:38:12)
+    at async eval (src/i18n/request.ts:4:13)
+  2 |
+  3 | export default getRequestConfig(async ({ locale }) => ({
+> 4 |   messages: (await import(`../../messages/${locale}.json`)).default
+    |             ^
+  5 | })) {
+  code: 'MODULE_NOT_FOUND',
+  digest: '2205230045'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /fr 500 in 655ms
+ GET /favicon.ico 200 in 13ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ GET /fr 200 in 5352ms
+Only plain objects can be passed to Client Components from Server Components. Module objects are not supported.
+  [..., Module, Null, ..., ..., [...], 1]
+        ^^^^^^
+ ⨯ Error: Cannot find module './undefined.json'
+    at <unknown> (.next/server/app/[locale]/page.js:38:12)
+    at async eval (src/i18n/request.ts:4:13)
+  2 |
+  3 | export default getRequestConfig(async ({ locale }) => ({
+> 4 |   messages: (await import(`../../messages/${locale}.json`)).default
+    |             ^
+  5 | })) {
+  code: 'MODULE_NOT_FOUND',
+  digest: '2205230045'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+Only plain objects can be passed to Client Components from Server Components. Module objects are not supported.
+  [..., Module, Null, ..., ..., [...], 1]
+        ^^^^^^
+ ⨯ Error: Cannot find module './undefined.json'
+    at <unknown> (.next/server/app/[locale]/page.js:38:12)
+    at async eval (src/i18n/request.ts:4:13)
+  2 |
+  3 | export default getRequestConfig(async ({ locale }) => ({
+> 4 |   messages: (await import(`../../messages/${locale}.json`)).default
+    |             ^
+  5 | })) {
+  code: 'MODULE_NOT_FOUND',
+  digest: '2205230045'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ GET /fr 500 in 5204ms
+ GET /favicon.ico 200 in 112ms
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+Only plain objects can be passed to Client Components from Server Components. Module objects are not supported.
+  [..., Module, Null, ..., ..., [...], 1]
+        ^^^^^^
+ ⨯ Error: Cannot find module './undefined.json'
+    at <unknown> (.next/server/app/[locale]/page.js:38:12)
+    at async eval (src/i18n/request.ts:4:13)
+  2 |
+  3 | export default getRequestConfig(async ({ locale }) => ({
+> 4 |   messages: (await import(`../../messages/${locale}.json`)).default
+    |             ^
+  5 | })) {
+  code: 'MODULE_NOT_FOUND',
+  digest: '2205230045'
+}
+ GET /fr 500 in 499ms
+ GET /favicon.ico 200 in 15ms
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+Only plain objects can be passed to Client Components from Server Components. Module objects are not supported.
+  [..., Module, Null, ..., ..., [...], 1]
+        ^^^^^^
+ ⨯ Error: Cannot find module './undefined.json'
+    at <unknown> (.next/server/app/[locale]/page.js:38:12)
+    at async eval (src/i18n/request.ts:4:13)
+  2 |
+  3 | export default getRequestConfig(async ({ locale }) => ({
+> 4 |   messages: (await import(`../../messages/${locale}.json`)).default
+    |             ^
+  5 | })) {
+  code: 'MODULE_NOT_FOUND',
+  digest: '2205230045'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /fr 500 in 228ms
+ GET /favicon.ico 200 in 9ms
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json',
+  page: '/fr'
+}
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Failed to generate static paths for /[locale]:
+[Error: Cannot find module './vendor-chunks/@ark-ui.js'
+Require stack:
+- /Users/denisadam/osteopathe-booking/.next/server/webpack-runtime.js
+- /Users/denisadam/osteopathe-booking/.next/server/app/[locale]/page.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/require.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/load-components.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/utils.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/compiled/jest-worker/processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Failed to generate static paths for /[locale]:
+[Error: Cannot find module './vendor-chunks/@ark-ui.js'
+Require stack:
+- /Users/denisadam/osteopathe-booking/.next/server/webpack-runtime.js
+- /Users/denisadam/osteopathe-booking/.next/server/app/[locale]/page.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/require.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/load-components.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/utils.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/compiled/jest-worker/processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/@ark-ui.js'
+Require stack:
+- /Users/denisadam/osteopathe-booking/.next/server/webpack-runtime.js
+- /Users/denisadam/osteopathe-booking/.next/server/app/[locale]/page.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/require.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/load-components.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/utils.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/compiled/jest-worker/processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/fr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'
+}
+ GET /fr 500 in 3724ms
+ GET /fr 500 in 2659ms
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⨯ Error: Cannot find module './985.js'
+Require stack:
+- /Users/denisadam/osteopathe-booking/.next/server/webpack-runtime.js
+- /Users/denisadam/osteopathe-booking/.next/server/app/favicon.ico/route.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/require.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/load-components.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/utils.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/swc/options.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/swc/index.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/lib/router-server.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/favicon.ico/route.js:1:68909)
+    at Object.<anonymous> (.next/server/app/favicon.ico/route.js:1:68954) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 476ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/denisadam/osteopathe-booking/.next/cache/webpack/client-development-fallback/0.pack.gz_' -> '/Users/denisadam/osteopathe-booking/.next/cache/webpack/client-development-fallback/0.pack.gz'
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⨯ [Error: Cannot find module './vendor-chunks/@ark-ui.js'
+Require stack:
+- /Users/denisadam/osteopathe-booking/.next/server/webpack-runtime.js
+- /Users/denisadam/osteopathe-booking/.next/server/app/[locale]/page.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/require.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/load-components.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/utils.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/compiled/jest-worker/processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/fr'
+}
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'
+}
+ GET /_next/static/webpack/9251d37c42e4e231.webpack.hot-update.json 500 in 1255ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /fr 500 in 1270ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/@ark-ui.js'
+Require stack:
+- /Users/denisadam/osteopathe-booking/.next/server/webpack-runtime.js
+- /Users/denisadam/osteopathe-booking/.next/server/app/[locale]/page.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/require.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/load-components.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/utils.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/compiled/jest-worker/processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/fr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'
+}
+ GET /fr 500 in 509ms
+ ⨯ Error: Cannot find module './985.js'
+Require stack:
+- /Users/denisadam/osteopathe-booking/.next/server/webpack-runtime.js
+- /Users/denisadam/osteopathe-booking/.next/server/pages/_document.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/require.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/load-components.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/utils.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/swc/options.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/swc/index.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/lib/router-server.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/favicon.ico/route.js:1:68909)
+    at Object.<anonymous> (.next/server/app/favicon.ico/route.js:1:68954) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 36ms
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'
+}
+ GET /_next/static/webpack/9251d37c42e4e231.webpack.hot-update.json 500 in 328ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /fr 200 in 355ms
+ ⨯ [Error: Cannot find module './vendor-chunks/@ark-ui.js'
+Require stack:
+- /Users/denisadam/osteopathe-booking/.next/server/webpack-runtime.js
+- /Users/denisadam/osteopathe-booking/.next/server/app/[locale]/page.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/require.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/load-components.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/utils.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/compiled/jest-worker/processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/fr'
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/@ark-ui.js'
+Require stack:
+- /Users/denisadam/osteopathe-booking/.next/server/webpack-runtime.js
+- /Users/denisadam/osteopathe-booking/.next/server/app/[locale]/page.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/require.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/load-components.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/utils.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/compiled/jest-worker/processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/fr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/routes-manifest.json'
+}
+ GET /fr 500 in 525ms
+ ⨯ Error: Cannot find module './985.js'
+Require stack:
+- /Users/denisadam/osteopathe-booking/.next/server/webpack-runtime.js
+- /Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/require.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/load-components.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/utils.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/swc/options.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/swc/index.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/lib/router-server.js
+- /Users/denisadam/osteopathe-booking/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/favicon.ico/route.js:1:68909)
+    at Object.<anonymous> (.next/server/app/favicon.ico/route.js:1:68954) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 17ms
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'
+}
+ GET /_next/static/webpack/9251d37c42e4e231.webpack.hot-update.json 500 in 570ms
+ GET /fr 500 in 570ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/server/app/[locale]/page.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/server/app/[locale]/page.js',
+  page: '/fr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/server/pages/_document.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/server/pages/_document.js'
+}
+ GET /fr 500 in 42ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/denisadam/osteopathe-booking/.next/server/app/_not-found/page.js'
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 115ms
+ GET /_next/static/chunks/fallback/main.js 500 in 114ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 114ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 113ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 113ms
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+ GET /favicon.ico 200 in 279ms
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (178kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (177kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ⚠ ./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Footer.tsx
+Attempted import error: 'useColorModeValue' is not exported from '@chakra-ui/react' (imported as 'useColorModeValue').
+
+Import trace for requested module:
+./src/components/Layout/Footer.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuButton' is not exported from '@chakra-ui/react' (imported as 'MenuButton').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+
+./src/components/Layout/Header.tsx
+Attempted import error: 'MenuList' is not exported from '@chakra-ui/react' (imported as 'MenuList').
+
+Import trace for requested module:
+./src/components/Layout/Header.tsx
+./src/components/Layout/Layout.tsx
+[?25h

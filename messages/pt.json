@@ -1,0 +1,147 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Apagar",
+    "required": "Obrigatório"
+  },
+  "navigation": {
+    "home": "Início",
+    "services": "Serviços",
+    "about": "Sobre",
+    "contact": "Contacto",
+    "booking": "Reservar",
+    "admin": "Administração"
+  },
+  "header": {
+    "title": "Camille Labasse D.O",
+    "phone": "(+351) 930 505 939",
+    "bookConsultation": "Reservar uma consulta"
+  },
+  "home": {
+    "hero": {
+      "title": "Camille Labasse D.O",
+      "subtitle": "Osteopata certificada em Lisboa",
+      "description": "Especialista em osteopatia tissular, aquática e pediátrica",
+      "cta": "Reservar uma consulta"
+    },
+    "services": {
+      "title": "Nossos Serviços",
+      "standard": {
+        "name": "Consulta Padrão",
+        "description": "Consulta de osteopatia clássica para todas as idades",
+        "price": "55€"
+      },
+      "reduced": {
+        "name": "Tarifa Reduzida",
+        "description": "Para bebés < 1 ano, desempregados e salário mínimo",
+        "price": "50€"
+      },
+      "aquatic": {
+        "name": "Osteopatia Aquática",
+        "description": "Sessões especializadas em ambiente aquático",
+        "price": "90€"
+      }
+    },
+    "about": {
+      "title": "Sobre a sua osteopata",
+      "license": "N. Cédula profissional 0100935",
+      "description1": "Camille é osteopata D.O, exclusiva e certificada. Isso significa que estudou 5 anos numa escola certificada pelo Ministério da Saúde francês, de acordo com os padrões europeus de formação em osteopatia.",
+      "description2": "Também é formada em osteopatia tissular do Dr Pierre Tricot, osteopatia obstétrica da Dra Elisabeth Tissot, osteopatia aquática, osteopatia pediátrica e obstétrica, ginecologia holística (incluindo os aspectos psico-emocionais e nutricionais), em psico-somatização e é trauma-informada.",
+      "practicalInfo": "Informações práticas",
+      "address": "Espaço Oneleaf\nRua Rodrigues Sampaio n°76, 1º apartamento\nLisboa, Portugal",
+      "languages": "Consultas em Português, Francês e Inglês"
+    },
+    "cta": {
+      "title": "Pronto para marcar?",
+      "description": "Reserve a sua consulta online em poucos cliques. Escolha o horário que mais lhe convém.",
+      "button": "Reservar agora"
+    }
+  },
+  "booking": {
+    "title": "Reservar a sua consulta",
+    "subtitle": "Escolha o seu serviço, data e hora preferidos",
+    "steps": {
+      "service": "1. Escolha o seu serviço",
+      "datetime": "2. Selecione o horário",
+      "info": "3. As suas informações"
+    },
+    "summary": {
+      "title": "Resumo",
+      "service": "Serviço:",
+      "date": "Data:",
+      "time": "Hora:",
+      "duration": "Duração:",
+      "price": "Preço:"
+    },
+    "form": {
+      "firstName": "Nome próprio",
+      "lastName": "Apelido",
+      "email": "Email",
+      "phone": "Telefone",
+      "notes": "Notas (opcional)",
+      "notesPlaceholder": "Informações adicionais para a sua consulta..."
+    },
+    "calendar": {
+      "availableSlots": "Horários disponíveis",
+      "noSlots": "Nenhum horário disponível para esta data.\nPor favor escolha outro dia.",
+      "months": {
+        "january": "janeiro",
+        "february": "fevereiro",
+        "march": "março",
+        "april": "abril",
+        "may": "maio",
+        "june": "junho",
+        "july": "julho",
+        "august": "agosto",
+        "september": "setembro",
+        "october": "outubro",
+        "november": "novembro",
+        "december": "dezembro"
+      },
+      "days": {
+        "monday": "Seg",
+        "tuesday": "Ter",
+        "wednesday": "Qua",
+        "thursday": "Qui",
+        "friday": "Sex",
+        "saturday": "Sáb",
+        "sunday": "Dom"
+      }
+    },
+    "submit": "Confirmar reserva",
+    "messages": {
+      "missingInfo": {
+        "title": "Informações em falta",
+        "description": "Por favor preencha todos os campos obrigatórios."
+      },
+      "success": {
+        "title": "Reserva confirmada!",
+        "description": "Receberá um email de confirmação em breve."
+      },
+      "error": {
+        "title": "Erro",
+        "description": "Ocorreu um erro ao fazer a reserva."
+      }
+    }
+  },
+  "footer": {
+    "description": "Especialista em osteopatia tissular, aquática e pediátrica. Consultas em português, francês e inglês.",
+    "license": "N. Cédula profissional 0100935",
+    "contact": "Contacto",
+    "navigation": "Navegação",
+    "copyright": "© 2025 Camille Labasse D.O. Todos os direitos reservados.",
+    "address": {
+      "line1": "Espaço Oneleaf",
+      "line2": "Rua Rodrigues Sampaio n°76",
+      "line3": "1º apartamento, Lisboa"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "required": "Required"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "booking": "Book",
+    "admin": "Administration"
+  },
+  "header": {
+    "title": "Camille Labasse D.O",
+    "phone": "(+351) 930 505 939",
+    "bookConsultation": "Book a consultation"
+  },
+  "home": {
+    "hero": {
+      "title": "Camille Labasse D.O",
+      "subtitle": "Certified osteopath in Lisbon",
+      "description": "Specialist in tissular, aquatic and pediatric osteopathy",
+      "cta": "Book a consultation"
+    },
+    "services": {
+      "title": "Our Services",
+      "standard": {
+        "name": "Standard Consultation",
+        "description": "Classic osteopathy consultation for all ages",
+        "price": "€55"
+      },
+      "reduced": {
+        "name": "Reduced Rate",
+        "description": "For babies < 1 year, unemployed and minimum wage",
+        "price": "€50"
+      },
+      "aquatic": {
+        "name": "Aquatic Osteopathy",
+        "description": "Specialized sessions in aquatic environment",
+        "price": "€90"
+      }
+    },
+    "about": {
+      "title": "About your osteopath",
+      "license": "Professional License No. 0100935",
+      "description1": "Camille is an accredited and exclusive osteopath. She studied 5 years full time in France, within an education that meets the european standards of osteopathy.",
+      "description2": "She is also formed in osteopathic tissular approach of Pierre Tricot, in aquatic, obstetric osteopathy of Elisabeth Tissot, pediatric, psycho-somatic osteopathy, in integrative gynecology and is also trauma-informed.",
+      "practicalInfo": "Practical Information",
+      "address": "Espaço Oneleaf\nRua Rodrigues Sampaio n°76, 1º apartamento\nLisbon, Portugal",
+      "languages": "Consultations in English, Portuguese and French"
+    },
+    "cta": {
+      "title": "Ready to book an appointment?",
+      "description": "Book your consultation online in just a few clicks. Choose your preferred time slot.",
+      "button": "Book now"
+    }
+  },
+  "booking": {
+    "title": "Book your consultation",
+    "subtitle": "Choose your preferred service, date and time",
+    "steps": {
+      "service": "1. Choose your service",
+      "datetime": "2. Select your time slot",
+      "info": "3. Your information"
+    },
+    "summary": {
+      "title": "Summary",
+      "service": "Service:",
+      "date": "Date:",
+      "time": "Time:",
+      "duration": "Duration:",
+      "price": "Price:"
+    },
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "notes": "Notes (optional)",
+      "notesPlaceholder": "Additional information for your consultation..."
+    },
+    "calendar": {
+      "availableSlots": "Available time slots",
+      "noSlots": "No time slots available for this date.\nPlease choose another day.",
+      "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "July",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
+      },
+      "days": {
+        "monday": "Mon",
+        "tuesday": "Tue",
+        "wednesday": "Wed",
+        "thursday": "Thu",
+        "friday": "Fri",
+        "saturday": "Sat",
+        "sunday": "Sun"
+      }
+    },
+    "submit": "Confirm booking",
+    "messages": {
+      "missingInfo": {
+        "title": "Missing information",
+        "description": "Please fill in all required fields."
+      },
+      "success": {
+        "title": "Booking confirmed!",
+        "description": "You will receive a confirmation email shortly."
+      },
+      "error": {
+        "title": "Error",
+        "description": "An error occurred while booking."
+      }
+    }
+  },
+  "footer": {
+    "description": "Specialist in tissular, aquatic and pediatric osteopathy. Consultations in English, Portuguese and French.",
+    "license": "Professional License No. 0100935",
+    "contact": "Contact",
+    "navigation": "Navigation",
+    "copyright": "© 2025 Camille Labasse D.O. All rights reserved.",
+    "address": {
+      "line1": "Espaço Oneleaf",
+      "line2": "Rua Rodrigues Sampaio n°76",
+      "line3": "1º apartment, Lisbon"
+    }
+  }
+}

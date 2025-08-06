@@ -1,0 +1,147 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "required": "Requis"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "booking": "Réserver",
+    "admin": "Administration"
+  },
+  "header": {
+    "title": "Camille Labasse D.O",
+    "phone": "(+351) 930 505 939",
+    "bookConsultation": "Réserver une consultation"
+  },
+  "home": {
+    "hero": {
+      "title": "Camille Labasse D.O",
+      "subtitle": "Ostéopathe certifiée à Lisbonne",
+      "description": "Spécialiste en ostéopathie tissulaire, aquatique et pédiatrique",
+      "cta": "Réserver une consultation"
+    },
+    "services": {
+      "title": "Nos Services",
+      "standard": {
+        "name": "Consultation Standard",
+        "description": "Consultation d'ostéopathie classique pour tous les âges",
+        "price": "55€"
+      },
+      "reduced": {
+        "name": "Tarif Réduit",
+        "description": "Pour bébés < 1 an, demandeurs d'emploi et salaire minimum",
+        "price": "50€"
+      },
+      "aquatic": {
+        "name": "Ostéopathie Aquatique",
+        "description": "Séances spécialisées en milieu aquatique",
+        "price": "90€"
+      }
+    },
+    "about": {
+      "title": "À propos de votre ostéopathe",
+      "license": "N. Cédula profissional 0100935",
+      "description1": "Camille est ostéopathe D.O, exclusive et agréée. Cela signifie 5 années d'études à temps plein par une école agréée par le Ministère de la Santé en France et respectueuse des normes européennes de formation en ostéopathie.",
+      "description2": "Elle est aussi formée en approche tissulaire de l'ostéopathie de Pierre Tricot, en obstétrique d'Elisabeth Tissot, en ostéopathie aquatique, pédiatrique et de grossesse, psycho-somatique, en gynécologie holistique, et en physiologie du trauma psychique.",
+      "practicalInfo": "Informations pratiques",
+      "address": "Espaço Oneleaf\nRua Rodrigues Sampaio n°76, 1º apartamento\nLisbonne, Portugal",
+      "languages": "Consultations en Français, Portugais et Anglais"
+    },
+    "cta": {
+      "title": "Prêt à prendre rendez-vous ?",
+      "description": "Réservez votre consultation en ligne en quelques clics. Choisissez votre créneau selon vos disponibilités.",
+      "button": "Réserver maintenant"
+    }
+  },
+  "booking": {
+    "title": "Réserver votre consultation",
+    "subtitle": "Choisissez votre service, date et heure préférés",
+    "steps": {
+      "service": "1. Choisissez votre service",
+      "datetime": "2. Sélectionnez votre créneau",
+      "info": "3. Vos informations"
+    },
+    "summary": {
+      "title": "Récapitulatif",
+      "service": "Service :",
+      "date": "Date :",
+      "time": "Heure :",
+      "duration": "Durée :",
+      "price": "Prix :"
+    },
+    "form": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "notes": "Notes (optionnel)",
+      "notesPlaceholder": "Informations supplémentaires pour votre consultation..."
+    },
+    "calendar": {
+      "availableSlots": "Créneaux disponibles",
+      "noSlots": "Aucun créneau disponible pour cette date.\nVeuillez choisir un autre jour.",
+      "months": {
+        "january": "janvier",
+        "february": "février",
+        "march": "mars",
+        "april": "avril",
+        "may": "mai",
+        "june": "juin",
+        "july": "juillet",
+        "august": "août",
+        "september": "septembre",
+        "october": "octobre",
+        "november": "novembre",
+        "december": "décembre"
+      },
+      "days": {
+        "monday": "Lun",
+        "tuesday": "Mar",
+        "wednesday": "Mer",
+        "thursday": "Jeu",
+        "friday": "Ven",
+        "saturday": "Sam",
+        "sunday": "Dim"
+      }
+    },
+    "submit": "Confirmer la réservation",
+    "messages": {
+      "missingInfo": {
+        "title": "Informations manquantes",
+        "description": "Veuillez remplir tous les champs obligatoires."
+      },
+      "success": {
+        "title": "Réservation confirmée !",
+        "description": "Vous recevrez un email de confirmation sous peu."
+      },
+      "error": {
+        "title": "Erreur",
+        "description": "Une erreur est survenue lors de la réservation."
+      }
+    }
+  },
+  "footer": {
+    "description": "Spécialiste en ostéopathie tissulaire, aquatique et pédiatrique. Consultations en français, portugais et anglais.",
+    "license": "N. Cédula profissional 0100935",
+    "contact": "Contact",
+    "navigation": "Navigation",
+    "copyright": "© 2025 Camille Labasse D.O. Tous droits réservés.",
+    "address": {
+      "line1": "Espaço Oneleaf",
+      "line2": "Rua Rodrigues Sampaio n°76",
+      "line3": "1º apartamento, Lisbonne"
+    }
+  }
+}
