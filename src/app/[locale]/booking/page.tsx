@@ -61,7 +61,7 @@ export default function BookingPage() {
 
         if (error) throw error
 
-        const formattedServices: Service[] = data.map(service => ({
+        const formattedServices: Service[] = data.map((service: any) => ({
           id: service.id,
           name: service.name_fr, // Using French for now, can be made dynamic later
           description: service.description_fr,

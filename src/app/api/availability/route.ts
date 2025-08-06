@@ -4,6 +4,13 @@ import { format, parseISO } from 'date-fns'
 
 export async function GET(request: NextRequest) {
   try {
+    // Check if Supabase is configured
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL) {
+      return NextResponse.json(
+        { error: 'Service unavailable - configuration missing' },
+        { status: 503 }
+      )
+    }
     const { searchParams } = new URL(request.url)
     const date = searchParams.get('date')
 
@@ -46,7 +53,7 @@ export async function GET(request: NextRequest) {
         const slotTime = minutesToTime(minutes)
         
         // Check if this slot conflicts with existing appointments
-        const hasConflict = appointments.some(apt => {
+        const hasConflict = appointments.some((apt: any) => {
           const aptTime = format(parseISO(apt.appointment_date), 'HH:mm')
           return aptTime === slotTime
         })

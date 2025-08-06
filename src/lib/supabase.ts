@@ -1,13 +1,16 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ''
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ''
 
-export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey, {
-  db: {
-    schema: 'app'
-  }
-})
+// Only create client if both URL and key are available
+export const supabase = supabaseUrl && supabaseAnonKey 
+  ? createClient<Database>(supabaseUrl, supabaseAnonKey, {
+      db: {
+        schema: 'app'
+      }
+    })
+  : null as any // Will be handled by the API routes
 
 export type Database = {
   app: {

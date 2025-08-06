@@ -13,6 +13,13 @@ const mollie = {
 
 export async function POST(request: NextRequest) {
   try {
+    // Check if Supabase is configured
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL) {
+      return NextResponse.json(
+        { error: 'Service unavailable - configuration missing' },
+        { status: 503 }
+      )
+    }
     const body = await request.text()
     const { id: paymentId } = JSON.parse(body)
 
