@@ -22,6 +22,7 @@ import { supabase } from '@/lib/supabase'
 import Layout from '@/components/Layout/Layout'
 import SimpleCalendar from '@/components/Booking/SimpleCalendar'
 import ServiceSelector from '@/components/Booking/ServiceSelector'
+import SupabaseDebug from '@/components/Debug/SupabaseDebug'
 
 interface Service {
   id: string
@@ -53,13 +54,50 @@ export default function BookingPage() {
   useEffect(() => {
     const fetchServices = async () => {
       try {
-        const { data, error } = await supabase
+        console.log('🔍 Fetching services from Supabase...')
+        
+        // Try both schemas to handle different environments
+        let data, error
+        
+        // First try public schema (production might use this)
+        const publicResult = await supabase
           .from('services')
           .select('*')
           .eq('is_active', true)
           .order('price')
+          
+        if (!publicResult.error && publicResult.data && publicResult.data.length > 0) {
+          data = publicResult.data
+          error = null
+          console.log('✅ Services loaded from public schema:', data.length)
+        } else {
+          console.log('⚠️ No data in public schema, trying app schema...')
+          // Try app schema
+          const appResult = await supabase
+            .schema('app')
+            .from('services')
+            .select('*')
+            .eq('is_active', true)
+            .order('price')
+            
+          data = appResult.data
+          error = appResult.error
+          console.log('📊 App schema result:', { dataCount: data?.length || 0, error: error?.message })
+        }
 
-        if (error) throw error
+        if (error) {
+          console.error('❌ Supabase error:', error)
+          throw error
+        }
+
+        if (!data || data.length === 0) {
+          console.warn('⚠️ No services found in database')
+          setSubmitMessage({
+            type: 'error',
+            message: 'Aucun service disponible pour le moment.'
+          })
+          return
+        }
 
         const formattedServices: Service[] = data.map((service: any) => ({
           id: service.id,
@@ -69,12 +107,13 @@ export default function BookingPage() {
           duration: service.duration
         }))
 
+        console.log('✅ Services formatted:', formattedServices.length)
         setServices(formattedServices)
       } catch (error) {
-        console.error('Error fetching services:', error)
+        console.error('💥 Error fetching services:', error)
         setSubmitMessage({
           type: 'error',
-          message: 'Erreur lors du chargement des services.'
+          message: `Erreur lors du chargement des services: ${error instanceof Error ? error.message : 'Erreur inconnue'}`
         })
       } finally {
         setIsLoadingServices(false)
@@ -121,7 +160,10 @@ export default function BookingPage() {
       appointmentDateTime.setHours(hours, minutes, 0, 0)
 
       // Simple approach: create user first (without auth for now)
-      const { data: userData, error: userError } = await supabase
+      // Try public schema first, then app schema
+      let userData, userError
+      
+      const publicUserResult = await supabase
         .from('users')
         .upsert({
           id: crypto.randomUUID(), // Generate a UUID for demo purposes
@@ -133,14 +175,39 @@ export default function BookingPage() {
         })
         .select()
         .single()
+        
+      if (!publicUserResult.error) {
+        userData = publicUserResult.data
+        userError = null
+      } else {
+        console.log('⚠️ Trying app schema for user creation...')
+        const appUserResult = await supabase
+          .schema('app')
+          .from('users')
+          .upsert({
+            id: crypto.randomUUID(),
+            email: formData.email,
+            first_name: formData.firstName,
+            last_name: formData.lastName,
+            phone: formData.phone,
+            preferred_language: 'fr'
+          })
+          .select()
+          .single()
+          
+        userData = appUserResult.data
+        userError = appUserResult.error
+      }
 
       if (userError) {
         console.error('User error:', userError)
         throw new Error('Erreur lors de la création du profil utilisateur')
       }
 
-      // Then create appointment
-      const { data, error } = await supabase
+      // Then create appointment - try both schemas
+      let appointmentData, appointmentError
+      
+      const publicAppointmentResult = await supabase
         .from('appointments')
         .insert({
           user_id: userData.id,
@@ -151,6 +218,31 @@ export default function BookingPage() {
           payment_status: 'pending'
         })
         .select()
+        
+      if (!publicAppointmentResult.error) {
+        appointmentData = publicAppointmentResult.data
+        appointmentError = null
+      } else {
+        console.log('⚠️ Trying app schema for appointment creation...')
+        const appAppointmentResult = await supabase
+          .schema('app')
+          .from('appointments')
+          .insert({
+            user_id: userData.id,
+            service_id: selectedService.id,
+            appointment_date: appointmentDateTime.toISOString(),
+            notes: formData.notes,
+            status: 'pending',
+            payment_status: 'pending'
+          })
+          .select()
+          
+        appointmentData = appAppointmentResult.data
+        appointmentError = appAppointmentResult.error
+      }
+
+      const data = appointmentData
+      const error = appointmentError
 
       if (error) {
         console.error('Appointment error:', error)
@@ -408,6 +500,7 @@ export default function BookingPage() {
           </VStack>
         </Container>
       </Box>
+      <SupabaseDebug />
     </Layout>
   )
 }
