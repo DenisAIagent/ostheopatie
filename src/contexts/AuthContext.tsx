@@ -5,7 +5,7 @@ import { User, Session } from '@supabase/supabase-js'
 import { createClient } from '@/lib/supabase-client'
 import { Database } from '@/lib/supabase'
 
-type UserProfile = Database['app']['Tables']['users']['Row']
+type UserProfile = Database['public']['Tables']['users']['Row']
 
 interface AuthContextType {
   user: User | null

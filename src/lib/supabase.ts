@@ -5,15 +5,11 @@ const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ''
 
 // Only create client if both URL and key are available
 export const supabase = supabaseUrl && supabaseAnonKey 
-  ? createClient<Database>(supabaseUrl, supabaseAnonKey, {
-      db: {
-        schema: 'app'
-      }
-    })
+  ? createClient<Database>(supabaseUrl, supabaseAnonKey)
   : null as any // Will be handled by the API routes
 
 export type Database = {
-  app: {
+  public: {
     Tables: {
       users: {
         Row: {
