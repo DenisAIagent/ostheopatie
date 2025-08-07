@@ -71,18 +71,14 @@ export default function BookingPage() {
           error = null
           console.log('✅ Services loaded from public schema:', data.length)
         } else {
-          console.log('⚠️ No data in public schema, trying app schema...')
-          // Try app schema
-          const appResult = await supabase
-            .schema('app')
-            .from('services')
-            .select('*')
-            .eq('is_active', true)
-            .order('price')
+          console.log('⚠️ No data in public schema, trying RPC function...')
+          // Try RPC function to access app schema
+          const rpcResult = await supabase
+            .rpc('get_services_from_app')
             
-          data = appResult.data
-          error = appResult.error
-          console.log('📊 App schema result:', { dataCount: data?.length || 0, error: error?.message })
+          data = rpcResult.data
+          error = rpcResult.error
+          console.log('📊 RPC result:', { dataCount: data?.length || 0, error: error?.message })
         }
 
         if (error) {
@@ -160,7 +156,7 @@ export default function BookingPage() {
       appointmentDateTime.setHours(hours, minutes, 0, 0)
 
       // Simple approach: create user first (without auth for now)
-      // Try public schema first, then app schema
+      // Try public schema first, then RPC function for app schema
       let userData, userError
       
       const publicUserResult = await supabase
@@ -180,23 +176,20 @@ export default function BookingPage() {
         userData = publicUserResult.data
         userError = null
       } else {
-        console.log('⚠️ Trying app schema for user creation...')
-        const appUserResult = await supabase
-          .schema('app')
-          .from('users')
-          .upsert({
-            id: crypto.randomUUID(),
-            email: formData.email,
-            first_name: formData.firstName,
-            last_name: formData.lastName,
-            phone: formData.phone,
-            preferred_language: 'fr'
+        console.log('⚠️ Trying RPC function for user creation...')
+        const userId = crypto.randomUUID()
+        const rpcUserResult = await supabase
+          .rpc('insert_user_to_app', {
+            p_id: userId,
+            p_email: formData.email,
+            p_first_name: formData.firstName,
+            p_last_name: formData.lastName,
+            p_phone: formData.phone,
+            p_preferred_language: 'fr'
           })
-          .select()
-          .single()
           
-        userData = appUserResult.data
-        userError = appUserResult.error
+        userData = rpcUserResult.data?.[0]
+        userError = rpcUserResult.error
       }
 
       if (userError) {
@@ -204,7 +197,7 @@ export default function BookingPage() {
         throw new Error('Erreur lors de la création du profil utilisateur')
       }
 
-      // Then create appointment - try both schemas
+      // Then create appointment - try public schema first, then RPC function
       let appointmentData, appointmentError
       
       const publicAppointmentResult = await supabase
@@ -223,22 +216,19 @@ export default function BookingPage() {
         appointmentData = publicAppointmentResult.data
         appointmentError = null
       } else {
-        console.log('⚠️ Trying app schema for appointment creation...')
-        const appAppointmentResult = await supabase
-          .schema('app')
-          .from('appointments')
-          .insert({
-            user_id: userData.id,
-            service_id: selectedService.id,
-            appointment_date: appointmentDateTime.toISOString(),
-            notes: formData.notes,
-            status: 'pending',
-            payment_status: 'pending'
+        console.log('⚠️ Trying RPC function for appointment creation...')
+        const rpcAppointmentResult = await supabase
+          .rpc('insert_appointment_to_app', {
+            p_user_id: userData.id,
+            p_service_id: selectedService.id,
+            p_appointment_date: appointmentDateTime.toISOString(),
+            p_notes: formData.notes,
+            p_status: 'pending',
+            p_payment_status: 'pending'
           })
-          .select()
           
-        appointmentData = appAppointmentResult.data
-        appointmentError = appAppointmentResult.error
+        appointmentData = rpcAppointmentResult.data
+        appointmentError = rpcAppointmentResult.error
       }
 
       const data = appointmentData
